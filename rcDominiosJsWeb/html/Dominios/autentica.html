@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rcDominiosJsWeb</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/dominios.css">
+</head>
+<body>
+  <div class="areaTotal">
+    <div class="areaTopo">
+      <div class="areaUtil">
+        <span class="txtPadrao">Domínios</span>
+      </div>
+    </div>
+    <div class="areaUtil">
+      <br>
+      <span class="txtPadraoGr">Identificação</span><br>
+      <br>
+      <br>
+      <form id="form">
+        <label class="txtPadrao etiqueta" for="txtApelido">Nome de Usuário</label><br>
+        <input class="caixaTexto" type="text" name="txtApelido" id="txtApelido"><br>
+        <br>
+        <label class="txtPadrao etiqueta" for="txtSenha">Senha</label><br>
+        <input class="caixaTexto" type="password" name="txtSenha" id="txtSenha"><br>
+        <br>
+        <br>
+        <input class="botao botSucesso" type="button" name="botAutenticar" id="botAutenticar" value="Entrar"><br>
+      </form>
+    </div>
+    <br><br>
+  </div>
+
+  <script type="module" src="../../js/Utils/Cookie.js"></script>
+  <script type="module" src="../../js/Transfers/AutenticaTransfer.js"></script>
+  <script type="module" src="../../js/Services/AutenticaService.js"></script>
+  <script type="module" src="../../js/Views/AutenticaView.js"></script>
+  <script type="module" src="../../js/Controllers/AutenticaController.js"></script>
+</body>
+</html>
